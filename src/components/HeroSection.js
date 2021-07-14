@@ -10,20 +10,20 @@ function HeroSection() {
       <h1>ГРУЗИЯ ВО ВСЕЙ КРАСЕ</h1>
       <p>с Фаигом</p>
       <div className='hero-btns'>
-        <Button
-          className='btns'
-          buttonStyle='btn--outline'
-          buttonSize='btn--large'
+        <a
+        href='/tours'
+        className='btns btn--outline btn--large'
+         
         >
-          SOMETHING
-        </Button>
+         БЛИЖАЙШИЕ ТУРЫ
+        </a>
         <Button
           className='btns'
           buttonStyle='btn--primary'
           buttonSize='btn--large'
-          onClick={console.log('hey')}
+          // onClick={console.log('hey')}
         >
-          SOMETHING<i className='far fa-play-circle' />
+          ИНСТАГРАМ<i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

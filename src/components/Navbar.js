@@ -29,8 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          SOMETHING
-            {/* <i class='fab fa-typo3' /> */}
+          FA_HUU
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -43,11 +42,11 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/tours'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Экскурсии
+              Ближайшие экскурсии
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,7 +55,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Гайды
+                Все услуги
               </Link>
             </li>
 
@@ -65,12 +64,11 @@ function Navbar() {
                 to='/sign-up'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
-              >
-                SOMETHING
+              >MENU
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SOMETHING</Button>}
+          {button && <Button buttonStyle='btn--outline'>НАПИСАТЬ МНЕ</Button>}
         </div>
       </nav>
     </>
