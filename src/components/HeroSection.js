@@ -13,7 +13,6 @@ function HeroSection() {
         <a
         href='/tours'
         className='btns btn--outline btn--large'
-         
         >
          БЛИЖАЙШИЕ ТУРЫ
         </a>

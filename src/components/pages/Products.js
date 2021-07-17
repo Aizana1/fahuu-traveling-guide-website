@@ -4,8 +4,9 @@ import '../../App.css'
 export default function Products() {
   return (
     <div className="products">
-      <img src="/images/photo_2021-07-12_00-55-43.jpg" alt="Logo" />
       <div className="container">
+      <img src="/images/photo_2021-07-12_00-55-43.jpg" alt="Logo" />
+
         <ul>
           {' '}
           <h1>Какие услуги я предлагаю?</h1>
